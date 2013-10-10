@@ -1,0 +1,5 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteBase /
+
+RewriteRule ^profile.php/(.*)$ http://k.tfound.ge/profile.php?username=$1 [R=301,L]
